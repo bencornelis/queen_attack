@@ -11,13 +11,7 @@ class Array
     else
       slope = (opponent_y - queen_y) / (opponent_x - queen_x)
       diagonally_aligned = slope.abs().eql?(1)
+      diagonally_aligned
     end
   end
 end
-
-=begin
-elsif ((((opponent_y - queen_y) / (opponent_x - queen_x)).abs).eql?(1))
-  true
-else
-  false
-=end
