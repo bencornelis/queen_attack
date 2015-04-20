@@ -1,0 +1,6 @@
+Authors: Ben Cornelis & Jesse James
+Method: queen_attack.rb
+Date: April 20, 2015
+
+Summary: Created method queen_attack that compares queen's coordinates with an opponent's
+and returns true if the queen can attack.
